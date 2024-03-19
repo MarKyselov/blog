@@ -1,0 +1,112 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --gray: hsl(0, 0%, 50%);
+    --black: rgb(18, 18, 18);
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+    color: #111111;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+
+    width: 384px;
+    height: 522px;
+    padding: 24px 24px 0;
+    gap: 24px;
+    background: #FFFFFF;
+    border: 1px solid #111111;
+    box-shadow: 8px 8px 0px #000000;
+    border-radius: 20px;
+  
+
+
+}
+
+.cardbg {
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.learning {
+    width: 82px;
+    height: 29px;
+    background-color: var(--yellow);
+    padding: 4px 12px;
+    border-radius: 4px;
+
+    font-weight: 800;
+     
+    
+    
+
+}
+h3 {
+    font-weight: 800;
+    font-size: 24px;
+    
+    transition: color 0.5s ease;
+}
+
+h3:hover {
+    color: var(--yellow);
+}
+.text {
+   
+    font-size: 16px;
+    
+    color: #7F7F7F;
+}
+
+span {
+    font-weight: 800;
+     
+   
+}
+div>img {
+    width: 32px;
+    height: 32px;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    border-radius: 50%;
+}
